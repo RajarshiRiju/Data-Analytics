@@ -1,0 +1,220 @@
+Python 3.7.3 (default, Apr 24 2019, 15:29:51) [MSC v.1915 64 bit (AMD64)]
+
+
+In [1]: runfile('E:/Trinity/Data Analytics/Assignment 2 - Decision Tree/Decision Tree Example-Copy1.py', wdir='E:/Trinity/Data Analytics/Assignment 2 - Decision Tree')
+
+
+
+
+============================ df_onlyX ==============================
+
+* Accuracy :  71.66666666666667 %
+-------------------------
+
+* Confusion Matrix
+-------------------------
+[[20  9]
+ [ 8 23]]
+
+
+* Classification Report
+-------------------------
+              precision    recall  f1-score   support
+         0.0       0.71      0.69      0.70        29
+         1.0       0.72      0.74      0.73        31
+
+    accuracy                           0.72        60
+   macro avg       0.72      0.72      0.72        60
+weighted avg       0.72      0.72      0.72        60
+
+
+
+
+============================ df_onlyX_group0 ==============================
+
+* Accuracy :  65.0 %
+-------------------------
+
+* Confusion Matrix
+-------------------------
+[[7 4]
+ [3 6]]
+
+
+* Classification Report
+-------------------------
+              precision    recall  f1-score   support
+         0.0       0.70      0.64      0.67        11
+         1.0       0.60      0.67      0.63         9
+
+    accuracy                           0.65        20
+   macro avg       0.65      0.65      0.65        20
+weighted avg       0.65      0.65      0.65        20
+
+
+
+
+============================ df_onlyX_group1 ==============================
+
+* Accuracy :  72.5 %
+-------------------------
+
+* Confusion Matrix
+-------------------------
+[[13  4]
+ [ 7 16]]
+
+
+* Classification Report
+-------------------------
+              precision    recall  f1-score   support
+         0.0       0.65      0.76      0.70        17
+         1.0       0.80      0.70      0.74        23
+
+    accuracy                           0.73        40
+   macro avg       0.73      0.73      0.72        40
+weighted avg       0.74      0.72      0.73        40
+
+
+
+
+============================ df_onlyY ==============================
+
+* Accuracy :  65.0 %
+-------------------------
+
+* Confusion Matrix
+-------------------------
+[[22  7]
+ [14 17]]
+
+
+* Classification Report
+-------------------------
+              precision    recall  f1-score   support
+           0       0.61      0.76      0.68        29
+           1       0.71      0.55      0.62        31
+
+    accuracy                           0.65        60
+   macro avg       0.66      0.65      0.65        60
+weighted avg       0.66      0.65      0.65        60
+
+
+
+
+============================ df_onlyY_group0 ==============================
+
+* Accuracy :  70.0 %
+-------------------------
+
+* Confusion Matrix
+-------------------------
+[[11  0]
+ [ 6  3]]
+
+
+* Classification Report
+-------------------------
+              precision    recall  f1-score   support
+           0       0.65      1.00      0.79        11
+           1       1.00      0.33      0.50         9
+
+    accuracy                           0.70        20
+   macro avg       0.82      0.67      0.64        20
+weighted avg       0.81      0.70      0.66        20
+
+
+
+
+============================ df_onlyY_group1 ==============================
+
+* Accuracy :  72.5 %
+-------------------------
+
+* Confusion Matrix
+-------------------------
+[[12  5]
+ [ 6 17]]
+
+
+* Classification Report
+-------------------------
+              precision    recall  f1-score   support
+           0       0.67      0.71      0.69        17
+           1       0.77      0.74      0.76        23
+
+    accuracy                           0.73        40
+   macro avg       0.72      0.72      0.72        40
+weighted avg       0.73      0.72      0.73        40
+
+
+
+
+============================ df ==============================
+
+* Accuracy :  71.66666666666667 %
+-------------------------
+
+* Confusion Matrix
+-------------------------
+[[22  7]
+ [10 21]]
+
+
+* Classification Report
+-------------------------
+              precision    recall  f1-score   support
+           0       0.69      0.76      0.72        29
+           1       0.75      0.68      0.71        31
+
+    accuracy                           0.72        60
+   macro avg       0.72      0.72      0.72        60
+weighted avg       0.72      0.72      0.72        60
+
+
+
+
+============================ df_group0 ==============================
+
+* Accuracy :  60.0 %
+-------------------------
+
+* Confusion Matrix
+-------------------------
+[[6 5]
+ [3 6]]
+
+
+* Classification Report
+-------------------------
+              precision    recall  f1-score   support
+           0       0.67      0.55      0.60        11
+           1       0.55      0.67      0.60         9
+
+    accuracy                           0.60        20
+   macro avg       0.61      0.61      0.60        20
+weighted avg       0.61      0.60      0.60        20
+
+
+
+
+============================ df_group1 ==============================
+
+* Accuracy :  72.5 %
+-------------------------
+
+* Confusion Matrix
+-------------------------
+[[13  4]
+ [ 7 16]]
+
+
+* Classification Report
+-------------------------
+              precision    recall  f1-score   support
+           0       0.65      0.76      0.70        17
+           1       0.80      0.70      0.74        23
+
+    accuracy                           0.73        40
+   macro avg       0.73      0.73      0.72        40
+weighted avg       0.74      0.72      0.73        40
